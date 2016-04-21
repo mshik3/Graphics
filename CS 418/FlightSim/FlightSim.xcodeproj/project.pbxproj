@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDF31E361C8B57AF0087F6E1 /* mountain-retained.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDF31E341C8B57AF0087F6E1 /* mountain-retained.cpp */; };
+		EDF31E381C8B57F90087F6E1 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDF31E371C8B57F90087F6E1 /* GLUT.framework */; };
+		EDF31E3A1C8B58000087F6E1 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDF31E391C8B58000087F6E1 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EDF31E281C8B57860087F6E1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EDF31E2A1C8B57870087F6E1 /* FlightSim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FlightSim; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF31E341C8B57AF0087F6E1 /* mountain-retained.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "mountain-retained.cpp"; path = "../mountain-retained.cpp"; sourceTree = "<group>"; };
+		EDF31E371C8B57F90087F6E1 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		EDF31E391C8B58000087F6E1 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDF31E271C8B57860087F6E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF31E3A1C8B58000087F6E1 /* OpenGL.framework in Frameworks */,
+				EDF31E381C8B57F90087F6E1 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDF31E211C8B57860087F6E1 = {
+			isa = PBXGroup;
+			children = (
+				EDF31E391C8B58000087F6E1 /* OpenGL.framework */,
+				EDF31E371C8B57F90087F6E1 /* GLUT.framework */,
+				EDF31E2C1C8B57870087F6E1 /* FlightSim */,
+				EDF31E2B1C8B57870087F6E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDF31E2B1C8B57870087F6E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF31E2A1C8B57870087F6E1 /* FlightSim */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDF31E2C1C8B57870087F6E1 /* FlightSim */ = {
+			isa = PBXGroup;
+			children = (
+				EDF31E341C8B57AF0087F6E1 /* mountain-retained.cpp */,
+			);
+			path = FlightSim;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDF31E291C8B57860087F6E1 /* FlightSim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF31E311C8B57870087F6E1 /* Build configuration list for PBXNativeTarget "FlightSim" */;
+			buildPhases = (
+				EDF31E261C8B57860087F6E1 /* Sources */,
+				EDF31E271C8B57860087F6E1 /* Frameworks */,
+				EDF31E281C8B57860087F6E1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlightSim;
+			productName = FlightSim;
+			productReference = EDF31E2A1C8B57870087F6E1 /* FlightSim */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDF31E221C8B57860087F6E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Shikora;
+				TargetAttributes = {
+					EDF31E291C8B57860087F6E1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EDF31E251C8B57860087F6E1 /* Build configuration list for PBXProject "FlightSim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EDF31E211C8B57860087F6E1;
+			productRefGroup = EDF31E2B1C8B57870087F6E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF31E291C8B57860087F6E1 /* FlightSim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDF31E261C8B57860087F6E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF31E361C8B57AF0087F6E1 /* mountain-retained.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EDF31E2F1C8B57870087F6E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EDF31E301C8B57870087F6E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EDF31E321C8B57870087F6E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDF31E331C8B57870087F6E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDF31E251C8B57860087F6E1 /* Build configuration list for PBXProject "FlightSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF31E2F1C8B57870087F6E1 /* Debug */,
+				EDF31E301C8B57870087F6E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF31E311C8B57870087F6E1 /* Build configuration list for PBXNativeTarget "FlightSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF31E321C8B57870087F6E1 /* Debug */,
+				EDF31E331C8B57870087F6E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDF31E221C8B57860087F6E1 /* Project object */;
+}
